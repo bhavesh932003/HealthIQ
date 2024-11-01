@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HealthIQ - Your Personal Doctor | About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+      /* Dynamic Background Animation */
+      body {
+        background: linear-gradient(-45deg, #333399, #333333, #6600cc, #000000);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        color: #f1f1f1;
+      }
+      @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
+      /* Navbar */
+      .navbar {
+        background-color: #1a1a1a;
+      }
+      .navbar-brand, .navbar-nav .nav-link {
+        color: #ffffff !important;
+      }
+
+      /* About Section */
+      .about-container {
+        margin-top: 40px;
+      }
+      .about-card {
+        background: #1f1f1f;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .about-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+      }
+      .about-card h5 {
+        color: #ffcc00;
+        margin-top: 15px;
+      }
+      .footer {
+        background-color: #1a1a1a;
+        color: #f1f1f1;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">HealthIQ - Your Personal Doctor</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="?#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/developer">Developer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="container about-container">
+      <h2 class="text-center">About Me</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="about-card">
+            <h5>Meet the Developer</h5>
+            <p>Hello, I'm Bhavesh Shukla, a Mechanical Engineering student at IIT Kanpur. With a keen interest in the intersection of technology and healthcare, I'm dedicated to leveraging my skills in engineering and artificial intelligence to create innovative solutions.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="about-card">
+            <h5>My Journey</h5>
+            <p>As a 4th-year undergraduate, I have honed my technical skills through rigorous coursework and hands-on projects. My academic background has provided me with a solid foundation in problem-solving and critical thinking, which I apply to develop efficient and effective healthcare solutions.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="about-card">
+            <h5>A Commitment to Excellence</h5>
+            <p>I am driven by a commitment to excellence and a belief that technology should enhance our quality of life. I strive to develop applications that are user-friendly, impactful, and tailored to meet the needs of individuals seeking healthcare information.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="about-card">
+            <h5>Passion for Health Tech</h5>
+            <p>The development of HealthIQ - Your Personal Doctor represents my passion for AI and my dedication to improving healthcare accessibility. I believe that AI can transform healthcare by making it more personalized and informative.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="about-card">
+            <h5>Join Me on this Journey</h5>
+            <p>I invite you to explore HealthIQ and experience firsthand the fusion of AI and healthcare. Together, we can empower individuals with knowledge, promote well-being, and contribute to a healthier future.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 HealthIQ - Your Personal Doctor. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
